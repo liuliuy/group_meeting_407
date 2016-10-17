@@ -9,7 +9,7 @@ def dnapermutation(m,n):
         m.append(x)
         a+=1
     return m
-#½«Ã¿Ò»ÌõÍÑÑõºËÌÇºËËáµÄ¿ÉÄÜĞòÁĞ£¨4ÖÖ£©Çó³öÔÙºÏ²¢ÎªÒ»¸öÁĞ±í£¬·Ö±ğ¸³Öµµ½sdna1~8±äÁ¿Àï
+#å°†æ¯ä¸€æ¡è„±æ°§æ ¸ç³–æ ¸é…¸çš„å¯èƒ½åºåˆ—ï¼ˆ4ç§ï¼‰æ±‚å‡ºå†åˆå¹¶ä¸ºä¸€ä¸ªåˆ—è¡¨ï¼Œåˆ†åˆ«èµ‹å€¼åˆ°sdna1~8å˜é‡é‡Œ
 s1=[]
 n=0
 sdna1=dnapermutation(s1,n)
@@ -57,7 +57,7 @@ for a in sdna1:
                             for h in sdna8:
                                 dnalist.append((a,b,c,d,e,f,g,h))
 pass
-#Ò»ÖÖ¿ÉÄÜÏÂµÄ·ÖÖµ
+#ä¸€ç§å¯èƒ½ä¸‹çš„åˆ†å€¼
 dnazero=[]
 dnaone=[]
 dnatwo=[]
@@ -116,15 +116,15 @@ d={}
 for num in range(0,4**8):
     d.setdefault(my_func(num),num)
 pass
-#Ëã³ömy_funcµÄÄ¿±ê²ÎÊıÊÇ31038£¬29·Ö
+#ç®—å‡ºmy_funcçš„ç›®æ ‡å‚æ•°æ˜¯31038ï¼Œ29åˆ†
 target=d[bestscore]
-#ÔÚ½âÊÍÆ÷Àï·Ö±ğ´ò³ödnazero(one,two,three,four)sliece[350742],
+#åœ¨è§£é‡Šå™¨é‡Œåˆ†åˆ«æ‰“å‡ºdnazero(one,two,three,four)sliece[350742],
 ##['T', 'C', 'C', 'C', 'C', 'G', 'C', 'C']---------C
 ##['C', 'G', 'C', 'C', 'C', 'C', 'C', 'C']---------C
 ##['A', 'A', 'T', 'A', 'A', 'C', 'A', 'A']---------A
 ##['C', 'A', 'A', 'A', 'A', 'G', 'A', 'T']---------A
 ##['C', 'T', 'T', 'C', 'T', 'A', 'T', 'T']---------T
-##¼´ Ä£ÌåÊÇCCAA
+##å³ æ¨¡ä½“æ˜¯CCAA
     
 
 
